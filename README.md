@@ -16,6 +16,8 @@ Responsive frontend built using HTML + Bootstrap
 
 🛠️ Technologies Used
 Python (Flask, OpenCV, NumPy, Pandas, Joblib)
+
 HTML5 + Bootstrap
+
 Machine Learning (KNN Classifier from sklearn)
 CSV-based lightweight database
