@@ -1,11 +1,21 @@
-# 📸 Face Recognition Based Attendance System
+📸 Face Recognition Based Attendance System
+This is a Flask-based Face Recognition Attendance System that uses OpenCV and machine learning (KNN classifier) to automate attendance tracking. It captures images from a webcam, identifies registered users using facial recognition, and marks their attendance with timestamped entries stored in CSV files.
 
-A real-time attendance system that uses face recognition technology to automate attendance marking using a webcam, OpenCV, and machine learning.
+🚀 Features
+Face detection using Haar cascades (cv2.CascadeClassifier)        
+Face recognition using K-Nearest Neighbors (KNN)
+Real-time webcam interface for:
+  Marking attendance
+  Adding new users
+Automatic training of the model when new users are added
+Attendance logging in CSV format
+Dashboard-style interface to:
+  View today’s attendance
+  Add/Delete users
+Responsive frontend built using HTML + Bootstrap
 
-...
-
-## 🙋‍♂️ Author
-
-**Pushkar Shukla**  
-📧 [pushkarshukla401@gmail.com](mailto:pushkarshukla401@gmail.com)  
-🌐 [GitHub](https://github.com/Pushkarshukla07) | [LinkedIn](https://linkedin.com/in/shuklapushkar)
+🛠️ Technologies Used
+Python (Flask, OpenCV, NumPy, Pandas, Joblib)
+HTML5 + Bootstrap
+Machine Learning (KNN Classifier from sklearn)
+CSV-based lightweight database
